@@ -1,0 +1,75 @@
+/* Write CSS here */
+.app-container {
+  min-height: 100vh;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.clock-card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 40vh;
+  width: 30vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-img-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 20px;
+  width: 20px;
+}
+.timer-para {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 5px;
+}
+.timer {
+  margin-top: 0px;
+  color: #333333;
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button {
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.green-btn {
+  background-color: #1db05f;
+}
+.red-btn {
+  background-color: #ef0d36;
+}
+.yellow-btn {
+  background-color: #eaa800;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url(https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png);
+  }
+  .clock-card-container {
+    height: 50vh;
+    width: 50vw;
+  }
+}
